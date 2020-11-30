@@ -1,3 +1,4 @@
+"use strict";
 let credits;
 const deliveryCountry = prompt ('Введите название Вашей страны');
 const deliveryCountryNormalized = deliveryCountry.toLowerCase();
