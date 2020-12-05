@@ -16,7 +16,6 @@ if (droidsQty === null) {
         message = 'Недостаточно средств на счету!';
         } else {
         message = `Вы купили ${droidsQty} дроидов, на счету осталось ${credits - totalPrice} кредитов.`;
-        alert (`Вы купили ${droidsQty} дроидов, на счету осталось ${credits - totalPrice} кредитов.`);
         } 
     } else {
         message = 'Пожалуйста, введите цифровое значение';
