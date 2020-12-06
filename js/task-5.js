@@ -10,6 +10,7 @@ if (deliveryCountry === null){
     switch(deliveryCountry.toLowerCase()){
         case 'китай':
             credits = 100;
+    
             break;
         
         case 'чили':
@@ -31,7 +32,10 @@ if (deliveryCountry === null){
             default:
             alert ('В вашей стране доставка не доступна');      
     }
-    alert (`Доставка в ${deliveryCountry} будет стоить ${credits} кредитов`);
+    if(credits){
+        alert (`Доставка в ${deliveryCountry} будет стоить ${credits} кредитов`);
+    }
+    
 }
 
 
